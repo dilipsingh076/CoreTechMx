@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css */
+.map-container{
+  width: 40vw;
+}
+.footer {
+  /* Additional styling for the footer */
+  padding: 2rem;
+  background-color: #1a202c; /* bg-gray-900 equivalent */
+}
+
+.contact-info i {
+  margin-right: 0.5rem;
+}
+
+.map-container iframe {
+  border-radius: 0.5rem;
+}
