@@ -5,7 +5,7 @@ const HomeSection = ({id}) => {
   return (
     <section
       id={id}
-      className="relative flex items-center justify-center h-screen bg-cover bg-center bg-no-repeat"
+      className="relative flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: `url(${require('../../assets/homeImg.jpeg')})`,
       }}

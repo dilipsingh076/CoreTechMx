@@ -2,7 +2,7 @@
 
 import React from "react";
 import ServiceCard from "./ServiceCard";
-import servicesData from "../../constant/serviceData";
+import {servicesData} from "../../constant/serviceData";
 
 const ServicesSection = ({id}) => {
   return (
