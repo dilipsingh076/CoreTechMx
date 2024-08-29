@@ -29,6 +29,7 @@
     color: #000;
     font-weight: bold;
     position: relative; /* Required for the underline effect */
+    padding: 10px 0;
 }
 
 .nav-links a.active::after {
@@ -38,7 +39,14 @@
     height: 2px;
     background-color: black; /* Adjust color as needed */
     left: 0;
-    bottom: -5px; /* Position the underline below the text */
+    bottom: 2px; /* Position the underline below the text */
+    transform: scaleX(0);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.nav-links a.active::after,
+.nav-links a:hover::after {
+    opacity: 1;
+    transform: scaleX(1);
 }
 
 .hamburger {
@@ -76,6 +84,8 @@
         background-color: #fff;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         width: 200px;
+        border-radius: 8px; /* Add rounded corners */
+        padding: 10px 0; /* Add padding to the container */
     }
 
     .nav-links.open {
@@ -83,8 +93,20 @@
     }
 
     .nav-links li {
-        margin: 10px 0;
-        text-align: right;
+        margin: 10px 10px; /* Adjust margin for better spacing */
+        text-align: left;
+    }
+
+    .nav-links a {
+        padding: 10px 10px; /* Increase padding for larger touch targets */
+        width: 100%; /* Ensure the clickable area covers the entire width */
+        border-radius: 4px; /* Add rounded corners to links */
+        transition: background-color 0.3s ease; /* Smooth transition for background color */
+    
+    }
+
+    .nav-links a:hover {
+        background-color: #f0f0f0; /* Add a hover effect */
     }
 
     .hamburger {

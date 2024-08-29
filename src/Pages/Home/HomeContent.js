@@ -3,7 +3,7 @@ import { services } from '../../constant/serviceData'; // Adjust the path as nee
 
 const HomeContent = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-4">
+    <div className="flex flex-col items-center justify-center h-full px-4">
       <div className="text-center max-w-3xl">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">Innovate with CoreTechMX</h1>
         <div className="w-20 h-1 bg-blue-900 mb-4 mx-auto"></div>
@@ -17,16 +17,16 @@ const HomeContent = () => {
         </button>
       </div>
 
-      <div className="py-12 px-6 md:px-12">
+      <div className="py-12 px-6 md:px12">
         <div className="container mx-auto text-center">
-          <div className="flex flex-wrap justify-center gap-8 mb-12">
+          {/* <div className="flex flex-wrap justify-center gap-8 mb-12">
             {services.map((service, index) => (
               <div key={index} className="w-full md:w-1/2 lg:w-1/3 bg-white shadow-lg rounded-lg p-6">
                 <h2 className="text-xl font-semibold mb-4 text-blue-900">{service.title}</h2>
                 <p className="text-gray-600">{service.description}</p>
               </div>
             ))}
-          </div>
+          </div> */}
           <div className="mt-12">
             {/* <img 
               src="/images/technology-solutions.jpg" 
