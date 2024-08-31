@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+.custom-underline {
+  text-decoration: underline;
+  text-decoration-color: #0094E8;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 10px; /* Adjust this value as needed */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -57,9 +64,19 @@
 
 
 /* footer css */
-.map-container{
-  width: 40vw;
+.map-container {
+  width: 40vw; /* Takes 40% of the viewport width on larger screens */
 }
+
+@media (max-width: 768px) {
+  .map-container {
+    width: 80vw; 
+    margin: auto;
+  }
+}
+
+
+
 .footer {
   /* Additional styling for the footer */
   padding: 2rem;

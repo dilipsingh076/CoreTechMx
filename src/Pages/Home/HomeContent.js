@@ -1,20 +1,30 @@
-import React from 'react';
-import { services } from '../../constant/serviceData'; // Adjust the path as needed
+import React from "react";
 
 const HomeContent = () => {
   return (
     <div className="flex flex-col items-center justify-center h-full px-4">
       <div className="text-center max-w-3xl">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">Innovate with CoreTechMX</h1>
-        <div className="w-20 h-1 bg-blue-900 mb-4 mx-auto"></div>
+        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+          Innovate with{" "}
+          <span className="relative">
+            <span className="inline-block custom-underline">
+              CoreTech<span className="text-[#0094E8]">MX</span>
+            </span>
+          </span>
+        </h1>
+        {/* <h1 className="text-5xl md:text-6xl font-bold mb-4">Innovate with CoreTech<span className=' text-[#0094E8]' >MX</span> </h1>
+        <div className="w-35 h-1 bg-[#0094E8] mb-4 mx-auto"></div> */}
         <p className="text-lg md:text-xl mb-8">
-          At CoreTechMX Solutions, we are at the forefront of technology innovation, providing comprehensive solutions across a range of industries.
-          Specializing in embedded systems, automation, semiconductors, mobile and web app development, robotics, microcontrollers, Linux, and IoT,
-          we empower businesses to excel in the digital age.
+          At CoreTechMX Solutions, we are at the forefront of technology
+          innovation, providing comprehensive solutions across a range of
+          industries. Specializing in embedded systems, automation,
+          semiconductors, mobile and web app development, robotics,
+          microcontrollers, Linux, and IoT, we empower businesses to excel in
+          the digital age.
         </p>
-        <button className="bg-blue-900 text-white font-semibold py-3 px-6 rounded hover:bg-blue-700 transition">
-          READ MORE
-        </button>
+        {/* <button className="bg-blue-900 text-white font-semibold py-3 px-6 rounded hover:bg-blue-700 transition">
+          Schedule a event with us
+        </button> */}
       </div>
 
       <div className="py-12 px-6 md:px12">
