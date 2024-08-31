@@ -9,11 +9,11 @@ const FooterBottom = () => {
             </div>
             <div className="footer-nav">
                 <ul className="flex space-x-4">
-                    <li><a href="#home" className="hover:text-blue-500">HOME</a></li>
-                    <li><a href="#about" className="hover:text-blue-500">ABOUT</a></li>
-                    <li><a href="#services" className="hover:text-blue-500">SERVICES</a></li>
-                    {/* <li><a href="#testimonials" className="hover:text-blue-500">TESTIMONIALS</a></li> */}
-                    <li><a href="#contact" className="hover:text-blue-500">CONTACT</a></li>
+                    <li><a href="#home" className="hover:text-[#0094E8]">HOME</a></li>
+                    <li><a href="#about" className="hover:text-[#0094E8]">ABOUT</a></li>
+                    <li><a href="#services" className="hover:text-[#0094E8]">SERVICES</a></li>
+                    {/* <li><a href="#testimonials" className="hover:text-[#0094E8]">TESTIMONIALS</a></li> */}
+                    <li><a href="#contact" className="hover:text-[#0094E8]">CONTACT</a></li>
                 </ul>
             </div>
         </div>
