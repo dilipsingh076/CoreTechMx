@@ -42,6 +42,7 @@ const Toaster = ({ message, onClose, type = 'success' }) => {
                 borderRadius: '5px',
                 display: 'flex',
                 alignItems: 'center',
+                zIndex:'9999',
                 ...style
             }}
         >
