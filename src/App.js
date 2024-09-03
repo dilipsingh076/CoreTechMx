@@ -9,7 +9,7 @@ import ServicesSection from './Pages/Service';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-[#0E1734]">
       <Navbar />
       <HeroSection/>
       <HomeSection id="home" />

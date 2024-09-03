@@ -6,7 +6,7 @@ import {servicesData} from "../../constant/serviceData";
 
 const ServicesSection = ({id}) => {
   return (
-    <section id={id} className="py-16 bg-gray-900">
+    <section id={id} className="py-16 ">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
           SERVICES
