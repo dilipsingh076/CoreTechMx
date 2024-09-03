@@ -158,19 +158,3 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
-
-{
-  /* <div className="text-center">
-                    <button
-                        type="submit"
-                        className={`px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed relative`}
-                        disabled={!isValid || loading}
-                    >
-                        {loading ? (
-                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150"><path fill="none" stroke="#0094E8" stroke-width="11" stroke-linecap="round" stroke-dasharray="300 385" stroke-dashoffset="0" d="M275 75c0 31-27 50-50 50-58 0-92-100-150-100-28 0-50 22-50 50s23 50 50 50c58 0 92-100 150-100 24 0 50 19 50 50Z"><animate attributeName="stroke-dashoffset" calcMode="spline" dur="2" values="685;-685" keySplines="0 0 1 1" repeatCount="indefinite"></animate></path></svg>
-                        ) : (
-                            'CONTACT US'
-                        )}
-                    </button>
-                </div> */
-}

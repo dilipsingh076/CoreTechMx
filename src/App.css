@@ -65,7 +65,7 @@
 
 /* footer css */
 .map-container {
-  width: 40vw; /* Takes 40% of the viewport width on larger screens */
+  width: 40vw;
 }
 
 @media (max-width: 768px) {
@@ -80,7 +80,7 @@
 .footer {
   /* Additional styling for the footer */
   padding: 2rem;
-  background-color: #1a202c; /* bg-gray-900 equivalent */
+  background-color: #1a202c;
 }
 
 .contact-info i {

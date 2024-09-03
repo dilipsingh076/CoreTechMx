@@ -1,21 +1,26 @@
-import './App.css';
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
-import AboutUsSection from './Pages/About';
-import ContactPage from './Pages/Contact';
-import HomeSection from './Pages/Home';
-import ServicesSection from './Pages/Service';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import AboutUsSection from "./Pages/About";
+import ContactPage from "./Pages/Contact";
+import GetInTouch from "./Pages/GetInTouch";
+import HomeSection from "./Pages/Home";
+import ServicesSection from "./Pages/Service";
+import {RoutesConfig} from "./RoutesConfig/RoutesConfig";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <HomeSection id="home" />
+      <RoutesConfig/>
+      {/* <HomeSection id="home" />
       <AboutUsSection id="about" />
-      <ServicesSection id="services" />
-      {/* Uncomment and create TestimonialsSection if needed */}
+      <ServicesSection id="services" /> */}
       {/* <TestimonialsSection id="testimonials" /> */}
-      <ContactPage id="contact" />
+      {/* <GetInTouch id="contact" /> */}
+      {/* <ContactPage id="contact" /> */}
+
       <Footer />
     </div>
   );
