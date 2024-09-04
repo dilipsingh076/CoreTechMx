@@ -3,7 +3,7 @@ import aboutUsImage from '../../assets/aboutImg.jpeg'; // Place your image in th
 
 const AboutUsImage = () => {
   return (
-    <img src={aboutUsImage} alt="About Us" className="w-full rounded-lg shadow-lg" />
+    <img src={aboutUsImage} alt="About Us" className="object-cover w-full rounded-lg shadow-lg" />
   );
 };
 

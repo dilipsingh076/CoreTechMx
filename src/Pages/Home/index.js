@@ -5,15 +5,9 @@ const HomeSection = ({id}) => {
   return (
     <section
       id={id}
-      className="relative flex items-center justify-center bg-cover bg-center bg-no-repeat  min-h-screen"
-      style={{
-        backgroundImage: `url(${require('../../assets/homeImg.jpeg')})`,
-      }}
+      className=" bg-gray-900"
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
-      <div className="relative z-10 text-white text-center px-4">
-        <HomeContent />
-      </div>
+      <HomeContent />
     </section>
   );
 };
