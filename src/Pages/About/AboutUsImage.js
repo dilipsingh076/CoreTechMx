@@ -1,9 +1,11 @@
 import React from 'react';
-import aboutUsImage from '../../assets/aboutImg.jpeg'; // Place your image in the assets folder
+import homeImg from "../../assets/homeImg.jpeg";
 
 const AboutUsImage = () => {
   return (
-    <img src={aboutUsImage} alt="About Us" className="object-cover w-full rounded-lg shadow-lg" />
+      <div className=" flext justify-center ">
+        <img src={homeImg} alt="Home" className="w-full h-auto object-cover  rounded-xl" />
+      </div>
   );
 };
 

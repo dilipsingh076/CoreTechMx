@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { navItems } from '../../constant/data';
 import './Navbar.css';
-import { CtmxIcon } from '../../assets';
 import {CtmxFullNameIcon} from "../../assets"
 
 const Navbar = () => {

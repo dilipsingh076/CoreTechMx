@@ -7,13 +7,11 @@ import Collaboration from "./Collaboration";
 const Footer = () => {
   return (
     <footer className="footer bg-gray-900 p-8 text-white">
-      <div className=" mt-8 mb-10 ">
-        <Collaboration />
-      </div>
-      <div className=" mx-auto flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-12">
-        <div className="w-full md:w-auto">
+      <div className="border border-red-900 mx-auto flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-12">
+        <div className="w-full flex flex-col gap-6  border border-blue-900">
+          <Collaboration />
           <ContactInfo />
-        </div>
+        </div> 
         <div>
           <Map />
         </div>

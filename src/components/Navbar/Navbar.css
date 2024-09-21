@@ -8,6 +8,9 @@
     top: 0;
     z-index: 1000;
 }
+section {
+    scroll-margin-top: 60px;
+}
 
 .logo {
     flex-shrink: 0;

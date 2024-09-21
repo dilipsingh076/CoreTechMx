@@ -18,9 +18,9 @@ const HomeContent = () => {
       </div>
 
       {/* Image Content */}
-      <div className=" flext justify-center md:w-2/5">
+      {/* <div className=" flext justify-center md:w-2/5">
         <img src={homeImg} alt="Home" className="w-full h-auto object-cover  rounded-xl" />
-      </div>
+      </div> */}
     </div>
   );
 };
