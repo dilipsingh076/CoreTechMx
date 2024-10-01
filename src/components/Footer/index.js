@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="mx-auto flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-12">
         <div className="w-full flex flex-col gap-6 ">
           <Collaboration />
-          <ContactInfo />
+          {/* <ContactInfo /> */}
         </div> 
         <div>
           <Map />

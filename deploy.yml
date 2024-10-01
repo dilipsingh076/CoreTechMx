@@ -1,0 +1,36 @@
+name: CoreTech MX
+
+on:
+  push:
+    branches:
+      - main  # This deploys when you push to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18'  # Specify the Node.js version
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build the project
+      run: npm run build
+
+    - name: Deploy via SSH
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOSTINGER_HOST }}
+        username: ${{ secrets.HOSTINGER_USER }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: 
+          cd ${{ secrets.HOSTINGER_PATH }}
+          rm -rf *  # Remove existing files in the directory
+          cp -r ./build/* ./  # Copy the React build files to the server
